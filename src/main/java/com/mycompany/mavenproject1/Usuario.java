@@ -8,7 +8,10 @@
  * @author aluno
  */
 public class Usuario {
-
+   private String login;
+    private int senha;
+    private String perfil;
+    private int identificadorUsuario;
     public String getLogin() {
         return login;
     }
@@ -40,8 +43,5 @@ public class Usuario {
     public void setIdentificadorUsuario(int identificadorUsuario) {
         this.identificadorUsuario = identificadorUsuario;
     }
-    private String login;
-    private int senha;
-    private String perfil;
-    private int identificadorUsuario;
+    
 }

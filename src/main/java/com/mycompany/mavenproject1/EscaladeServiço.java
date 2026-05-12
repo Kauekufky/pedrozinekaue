@@ -12,7 +12,9 @@ import java.util.Date;
  */
 public class EscaladeServiço {
     private int identificadorescala;
-
+    private Date data;
+    private String turno;
+    private String Bombeiro;
     public int getIdentificadorescala() {
         return identificadorescala;
     }
@@ -44,7 +46,5 @@ public class EscaladeServiço {
     public void setBombeiro(String Bombeiro) {
         this.Bombeiro = Bombeiro;
     }
-    private Date data;
-    private String turno;
-    private String Bombeiro;
+    
 }

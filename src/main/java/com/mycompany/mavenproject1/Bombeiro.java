@@ -16,7 +16,7 @@ public class Bombeiro {
     private int patente;
     private int especialidade;
     private int contato;
-
+    private int status;
     public int getIdentificadorBombeiro() {
         return identificadorBombeiro;
     }
@@ -88,5 +88,5 @@ public class Bombeiro {
     public void setStatus(int status) {
         this.status = status;
     }
-    private int status;
+    
 }
